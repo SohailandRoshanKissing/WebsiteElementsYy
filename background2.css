@@ -1,0 +1,161 @@
+/* This sets the margin and font for the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif, ;
+    background-image: url(images_2025/new\ background.jfif);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333; /* Colors out of the background of the header */
+    color: #fff; /* Changes the color of the texts/letters */
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+h1 {
+    margin-right: auto;
+}
+
+/* This adds a class called logo for the image in he header */
+.logo {
+    margin-left: 1rem; /* adds 1 rem of margin to the left of the logo image */
+    height: 3rem; /* sets the height of the logo image to 3 rem */
+}
+
+/* This styles the unordered list in the navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: Flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff; /* Makes the text white */
+    text-decoration: none; /* Removes the link line underneath the text */
+}
+
+main {
+    max-width: 1200px; /* Sets the maximum width of the main content to 1200 pixels */
+    margin: 0 auto; /* Centers the main content within its parent element using margin auto */
+    padding: 20px; /* Adds 20 pixels of padding to the main content */
+}
+
+.overview {
+    text-align: left; /* Aligns the text of the #landing element to the left */
+    margin-top: 50px; /* Adds a margin of 50 pixels to the top of the #landing element */
+}
+
+.largeheading {
+    font-size: 5rem; /* Sets the font size of the #largeheading element to 5rem */
+    color: dodgerblue; /* Sets the text color to dodgerblue */
+    font-weight: bold; /* sets the font weight of the element to bold */
+}
+
+.centered {
+     text-align: center; /* Centers the content of the element horizontally */
+}
+
+.bigheading {
+    font-size: 2rem;
+    font-weight: bold
+}
+
+#overview {
+    font-size: 24px; /* Sets the font size of the paragraphs in the #landing element to 24px */
+    line-height: 1.5; /* Sets the line height of the paragraphs in the #landing element to 1.5 */
+}
+
+footer {
+    background-color: #333; /* Sets the pbackground color of the footer to dark grey */
+    color: #fff; /* Sets the font color to white */
+    display: flex; /*  Sets the footer to use flexbox layout */
+    justify-content: space-between; /* Vertically aligns the content of the footer */
+}
+
+.social-media {
+    list-style: none; /* removes the bullet points from the list */
+    margin: 0; /* removes the margin from the list */
+    padding: 0; /* removes padding from list */
+    display: flex; /* sets the icons to use flexbox layout */
+    width: 5vw;
+    height: auto;
+}
+
+.SmallLogo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+.SmallGolo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.TextAlign {
+    align-items: start;
+}
+
+.VideoCenter {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.MiniHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.PictureCenter {
+    width: 25vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.paragraphpadding {
+    padding: 7.2px;
+}
+
+.madethisart {
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding: 11;
+}
+
+.PictureCenterMINI {
+    width: 10vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.Image11 {
+    height: auto;
+    width: 30vw;
+    display: flex;
+    padding: 7.2px;
+}
+
+p {
+    padding: 7.2px;
+}
+
+.PMC {
+    padding: 7.2px;
+    height: auto;
+    width: 2.5vw;
+}
